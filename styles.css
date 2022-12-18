@@ -25,6 +25,10 @@ header {
     color: var(--color-white);
     align-items: baseline;
 }
+img{
+    width: 30px;
+    margin-right: 5px;
+}
 a,a:hover{
     text-decoration: none;
     color: unset;
@@ -43,7 +47,7 @@ a,a:hover{
     padding-top: 20px;
 }
 .card-space{
-    height: 127px;
+    height: 100%;
     background-color: var(--color-white-gray);
     border-radius: 8px;
     padding: 20px;
@@ -56,4 +60,41 @@ a,a:hover{
 .card-space-decription p{
   font-size: 14px;
   line-height: 19px;  
+}
+#sub-title{
+    font-size: 32px;
+    color: var(--Color-red);
+    margin-top: 20px;
+}
+.Card-modality{
+    background-color: var(--color-purpleblue);
+    border-radius: 8px;
+    height: 100% ;
+    color: var(--color-white);
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.Card-modality-description h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Card-modality-description p{
+   font-size: 14px;
+   line-height: 19px; 
+}
+footer{
+    margin-top: 50px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 262px;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+.container-footer p{
+    margin-top: 30px;
 }
