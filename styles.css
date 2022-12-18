@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  font-family:'Open Sans';
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --Color-red: #f03c42;
+  --color-purpleblue: #222374;
+  --color-white-gray: #cccccc;
+  --color-black: #000;
+  --color-white: #FFF;
+}
+header {
+  background-color: var(--Color-red);
+  height: 100px;
+  padding: 0 15px;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    color: var(--color-white);
+    align-items: baseline;
+}
+a,a:hover{
+    text-decoration: none;
+    color: unset;
+}
+.container{
+   max-width: 960px;
+   margin: 0 auto;
+}
+.box-space{
+    background-color: var(--color-purpleblue);
+    height: 418px;
+}
+.box-space h2{
+    font-size: 32px ;
+    color: var(--color-white);
+    padding-top: 20px;
+}
+.card-space{
+    height: 127px;
+    background-color: var(--color-white-gray);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.card-space-decription h3{
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+.card-space-decription p{
+  font-size: 14px;
+  line-height: 19px;  
+}
